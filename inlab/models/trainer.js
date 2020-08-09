@@ -7,7 +7,7 @@ const trainerSchema = new mongoose.Schema({
         required: true
     },
     email: {
-        type: email,
+        type: string,
         required: true
     },
     ngaysinh: {
